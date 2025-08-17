@@ -23,3 +23,7 @@ print("Hello, Python!") # This is an inline comment in Python
 print("Olo, World!")
 
 
+## Docstring Comment
+"""This is a docstring comment in Python
+Docstrings are used to describe the purpose of a function   or a class
+"""
