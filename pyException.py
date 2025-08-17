@@ -23,3 +23,11 @@
 # print("Hello, 
 # World!") # Missing closing quote and parenthesis
 
+
+
+
+## NameError : Occurs when a local or global name is not found
+
+# Example of NameError:
+# print(Hello, Echo) # Hello and Echo are not defined variables or functions
+# print(x)
