@@ -41,4 +41,13 @@
 # def my_function():
 #     print("Hello, World!") # Correct indentation
 
-# 
+
+
+## TypeError : Occurs when an operation or function is applied to an object of inappropriate type
+# Example of TypeError:
+# print("Hello" + 5) # Cannot concatenate str and int
+# print("Hello" + str(5)) # Correct way to concatenate str and int
+# print("Hello" + str(5)) # Correct way to concatenate str and int
+# print(5 + "Hello") # Cannot add int and str
+# print(5 + str("Hello")) # Correct way to concatenate int and str
+# print(5 + str("Hello")) # Correct way to concatenate int and str
