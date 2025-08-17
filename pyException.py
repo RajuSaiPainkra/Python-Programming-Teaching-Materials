@@ -31,3 +31,14 @@
 # Example of NameError:
 # print(Hello, Echo) # Hello and Echo are not defined variables or functions
 # print(x)
+
+
+## IndentationError : Occurs when there is an indentation error in the code
+
+# Example of IndentationError:
+# def my_function():
+# print("Hello, World!") # Missing indentation
+# def my_function():
+#     print("Hello, World!") # Correct indentation
+
+# 
