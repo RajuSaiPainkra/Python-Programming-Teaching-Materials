@@ -1,12 +1,15 @@
-# match Case Statements
+# match case statments Check
 
 
-# start with def
-def check_value(value):
-    match value:
-        case 1: return "One"
-        case 2: return "Two"
-        case _: return "Other"
-    
-print(check_value(1))
-print(check_value(6))
+def weekday(day):
+    match day:
+        case 0 : return "Sunday"
+        case 1 : return "Monday"
+        case 2 : return "Tuesday"
+        case 3 : return "Wednesday"
+        case 4 : return "Thursday"
+        case 5 : return "Friday"
+        case 6 : return "Saturday"
+        case _ : return "Enter Valid Day Number" 
+
+print(weekday(1))
