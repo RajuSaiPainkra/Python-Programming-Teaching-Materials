@@ -17,6 +17,9 @@ print(weekday(1))
 
 # rewrite the code the check subject Examination
 
+
+
+day = str(input("Enter the Day in the Weeks : \n "))
 def days(day):
     match day:
         case "Monday" : return "English Philosophy"
@@ -28,5 +31,4 @@ def days(day):
         case "Sunday" : return "Holiday"
         case _ : return "Enter Valid Day Name "
 
-print(days("Monday"))
-print(days("sunday"))
+print("Your Examination subject is : ", days(day), "Make sure ready for Examination.")
